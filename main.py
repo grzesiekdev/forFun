@@ -19,7 +19,7 @@ def checking_occurrences():
         covered_letters[random_word.index(guess)] = random_word[random_word.index(guess)]
 
 
-words = ['spoon', 'table', 'borowkarz', 'tissue', 'bottle', 'laptop', 'pszczola']
+words = ['spoon', 'table', 'tissue', 'bottle', 'laptop', 'pszczola']
 
 
 random_word = words[random.randint(0, len(words)-1)]
