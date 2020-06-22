@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import math
-import re
 
 
 output = open('output.txt', 'w')
